@@ -63,8 +63,8 @@ nav .navbar-brand p{
 }
 
 .jumbotron{
-  background: url('../img/background_red.png') repeat center;
-  background-size: 100px;
+  background: url('../img/backgroun_red_2.jpg') no-repeat center;
+  background-size: 100%;
 }
 
 .about{
