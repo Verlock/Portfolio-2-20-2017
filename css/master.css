@@ -2,7 +2,7 @@
 
 font-family: 'Titillium Web', sans-serif;
 font-family: 'Courgette', cursive; (Brand)
-font-family: 'PT Serif', serif;
+font-family: 'PT Serif', serif; (Menu)
 
 
 */
@@ -11,6 +11,7 @@ font-family: 'PT Serif', serif;
 body{
   padding-top: 50px;
   background: #000;
+  font-family: 'Titillium Web', sans-serif;
 }
 #contact{
   padding: 2%;
@@ -50,4 +51,33 @@ nav .navbar-brand p{
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ff0000;
+}
+
+
+/*About ME Style*/
+
+.about-me img{
+  width: 300px;
+  border:  3px solid #000;
+  border-radius: 120px;
+}
+
+.jumbotron{
+  background: url('../img/background_red.png') repeat center;
+  background-size: 100px;
+}
+
+.about{
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  padding: 1.5%;
+}
+
+.about a{
+  color: #ff4c4c;
+}
+.about a:hover{
+  color: #00ff00;
+  text-decoration: none;
 }
