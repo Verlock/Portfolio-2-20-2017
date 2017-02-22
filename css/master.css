@@ -17,7 +17,8 @@ black #524E4D (82,78,77)
 body{
   padding-top: 50px;
   font-family: 'Titillium Web', sans-serif;
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
+  background: url('../img/img01.jpg');
 }
 
 
@@ -29,10 +30,6 @@ body{
   background: -o-linear-gradient(#524e4d 95%,#ff3232 90%); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#524e4d 95%,#ff3232 90%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#524e4d 95%,#ff3232 90%); /* Standard syntax */
-  -webkit-box-shadow: 0px 0px 6px 5px rgba(147,36,29);/* For Safari 5.1 to 6.0 */
-  -o-linear-shadow: 0px 0px 6px 5px rgba(147,36,29);/* For Opera 11.1 to 12.0 */
-  -moz-box-shadow: 0px 0px 6px 5px rgba(147,36,29); /* For Firefox 3.6 to 15 */
-  box-shadow: 0px 0px 6px 5px rgba(147,36,29); /* Standard syntax */
   border: none;
 
 }
@@ -64,10 +61,6 @@ nav .navbar-brand p{
   background: -o-linear-gradient(#524e4d 98%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#524e4d 98%,#ff3232 10%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#524e4d 98%,#ff3232 10%); /* Standard syntax */
-  -webkit-box-shadow: 0px 0px 6px 5px rgba(147,36,29);/* For Safari 5.1 to 6.0 */
-  -o-linear-shadow: 0px 0px 6px 5px rgba(147,36,29);/* For Opera 11.1 to 12.0 */
-  -moz-box-shadow: 0px 0px 6px 5px rgba(147,36,29); /* For Firefox 3.6 to 15 */
-  box-shadow: 0px 0px 6px 5px rgba(147,36,29); /* Standard syntax */
   border: none;
 }
 
@@ -87,4 +80,84 @@ nav .navbar-brand p{
 .about a {
   color: red;
   text-align: 0 0 5px #E6E4E5;
+}
+
+.about a:hover,
+.about a:focus{
+  text-decoration: none;
+  color: #B6B4B5;
+}
+
+/*Portfolio Style*/
+.thumbnail{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#524e4d 98.5%,#ff3232 10%); /* Standard syntax */
+  border: none;
+}
+
+/*Price Section*/
+.panel > .panel-heading {
+    background-image: none;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#524e4d 98.5%,#ff3232 10%); /* Standard syntax */
+    color: #F8F8F8;
+}
+.panel{
+  background: #E6E4E5;
+
+}
+.panel a{
+  text-decoration: none;
+}
+.panel a:hover{
+  color: #B6B4B5;
+}
+/*Form SectioN*/
+
+input, textarea{
+  width: 85%;
+}
+
+textarea {
+    resize: none;
+}
+form{
+  padding-left: 15%;
+  padding-bottom: 5%;
+  font-size: 17px;
+}
+h4{
+  font-size: 30px;
+}
+.contact-form{
+  background: #B6B4B5;
+  width: 40%;
+  margin-left: 5%;
+  border-radius: 40px;
+  border: 2px solid #524E4D;
+}
+
+.sent-email{
+  text-align: center;
+  font-size: 30px;
+
+}
+/*Footer Section*/
+.footer{
+  text-align: center;
+  background-image: none;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ff3232 10%, #524e4d 98.5%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ff3232 10%, #524e4d 98.5%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ff3232 10%, #524e4d 98.5%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ff3232 10%, #524e4d 98.5%); /* Standard syntax */
+  color: #F8F8F8;
+  height: 100%;
+  padding: 0.1%;
 }

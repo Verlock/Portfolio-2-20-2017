@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "soemthing@something.com"; // this is your Email address
+    $to = "contact@alvinsportfolio.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     // echo "Mail Sent. Thank you " . $first_name . ", we be in contact with you shortly."
-    $var = "Mail Sent. Thank you " . $first_name . ", we be in contact you shortly.";
+    $var = "Mail Sent. Thank you " . $first_name . ", will be in contact with you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 
@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
                   Employers <span class="glyphicon glyphicon-collapse-down"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li role="presentation"><a href="employer/employer.html">Certifications</a></li>
+                  <!-- <li role="presentation"><a href="employer/employer.html">Certifications</a></li> -->
                   <li role="presentation"><a href="img/Alvin Webb Resume.pdf" target="_blank">Resume <span class="glyphicon glyphicon-arrow-down"></span></a></li>
                 </ul>
               </li>
@@ -67,10 +67,14 @@ if(isset($_POST['submit'])){
     <div class="" id="meet-me"></div>
     <br>
     <div class="sent-email">
+
         <?php
 
             if (!empty($var)) {
-                echo $var;
+                echo '<div class="alert alert-success" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <strong>Mail Sent</strong>. Thank you ' . $first_name . ', contact you shortly.
+                      </div>';
             }
         ?>
     </div>
@@ -98,6 +102,7 @@ if(isset($_POST['submit'])){
           </div>
         </div>
       </section>
+
       <section id="portfolio">
         <div class="portfolio">
           <div class="row">
@@ -149,6 +154,7 @@ if(isset($_POST['submit'])){
         </div>
       </section>
       <section id="contact">
+
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -162,7 +168,11 @@ if(isset($_POST['submit'])){
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
-                    Basic Body
+                    <h5><strong>Basic Package</strong>: Start at $100</h5>
+                    <p>Basic Static page</p>
+                    <p>Basic Design</p>
+                    <p>Single page</p>
+                    <p><strong>* Not Mobile Ready refer to Advance</strong></p>
                   </div>
                 </div>
               </div>
@@ -176,7 +186,12 @@ if(isset($_POST['submit'])){
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
-                    Advance Body
+                    <h5><strong>Advance Package</strong>: Start at $500</h5>
+                    <p>Detailed Content Page</p>
+                    <p>Design</p>
+                    <p>Mobile Ready</p>
+                    <p>Up to 5 Pages</p>
+                    <p><strong>* No Site Behaviors</strong></p>
                   </div>
                 </div>
               </div>
@@ -190,37 +205,109 @@ if(isset($_POST['submit'])){
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
-                    Premium Body
+                    <h5><strong>Advance Package</strong>: Start at $1000</h5>
+                    <p>Detailed Content Page</p>
+                    <p>Detailed Design</p>
+                    <p>PSD File to Code</p>
+                    <p>Mobile Ready</p>
+                    <p>Up to 5 Pages</p>
+                    <p><strong></strong></p>
                   </div>
                 </div>
               </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Wordpress Basic Package
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <h5><strong>Wordpress Basic Package</strong>: Start at $500</h5>
+                    <p>Basic Template</p>
+                    <p>Server Setup</p>
+                    <p>5 Plugin Setup</p>
+                    <p>Basic Style</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Wordpress Advance Package
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    <h5><strong>Wordpress Advance Package</strong>: Start at $800</h5>
+                    <p>Custom Built Template</p>
+                    <p>Server Setup</p>
+                    <p>Detailed Styling</p>
+                    <p>No limit on Plugins</p>
+                    <p><strong>Please Contact about needs</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSix">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Additions
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                  <div class="panel-body">
+                    <p><strong>Add Page</strong>: $50</p>
+                    <p><strong>Special Fonts</strong>: $20</p>
+                    <p><strong>Stock Photo</strong>: Start at $50</p>
+                    <p><strong>Server Migration</strong>: Start at $25</p>
+                    <p><strong>Hosting Services</strong> $10 a Month</p>
+                    <p><strong>Domain Name</strong>: Starting at $20</p>
+                    <p><strong>More Wordpress Plugin</strong>: Start at $25</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-form">
             <h4 class="text-center">Let's Connect!</h4>
 
-            <!-- <form action="" method="post">
-              First Name: <input type="text" name="first_name"><br>
-              Last Name: <input type="text" name="last_name"><br>
-              Email: <input type="text" name="email"><br>
-              Subject: <select name="form_subject">
+            <form action="" method="post">
+              First Name:<br> <input type="text" name="first_name" required><br>
+              Last Name:<br> <input type="text" name="last_name"><br>
+              Email:<br> <input type="email" name="email" required><br>
+              Subject: &nbsp; &nbsp; <select name="form_subject">
                           <option value="Basic Package">Basic Package</option>
                           <option value="Advance Package">Advance Package</option>
                           <option value="Premium Package">Premium Package</option>
+                          <option value="Job offer">Employment</option>
                       </select><br>
+
               Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-              <input type="submit" name="submit" value="Submit">
-            </form> -->
+              <input class="btn btn-default" type="submit" name="submit" value="Send">
+            </form>
 
 
           </div>
         </div>
       </section>
       </div>
+      <br>
+      <footer>
+        <div class="footer">
+          <h6>Site Designed By Me! Languages Used: PHP HTML CSS JS Boostrap</h6>
+        </div>
+      </footer>
 
       <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
       <script src="js/bootstrap.js" charset="utf-8"></script>
-      <script src="script.js" charset="utf-8"></script>
+      <script src="js/script.js" charset="utf-8"></script>
       </body>
 
       </html>
