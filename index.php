@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
                 <img src="img/me.jpg" alt="Picture of Alvin">
               </div>
               <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 about">
-                <h2>My Name is Avin</h2>
+                <h2>My Name is Alvin</h2>
                 <p>
                   I have always been interested in Technology since I was 13. I would tinker with computers I would find in thrown away. <br>
                   I learned CompTia A+ while at <a href="http://www.jobcorps.gov/home.aspx" target="_blank">Job Corps</a>. I was 19 I started my Tech Career fixing computers. <br>
@@ -102,40 +102,34 @@ if(isset($_POST['submit'])){
           </div>
         </div>
       </section>
+      <hr id="portfolio">
+      <br>
 
-      <section id="portfolio">
+      <br>
+      <hr>
+      <section >
         <div class="portfolio">
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
+              <a href="http://codepen.io/Verlock/full/apdwda/" target="_blank" class="thumbnail">
+                <img src="img/project1.png">
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
+              <a href="http://kiacademykissimmee.com" target="_blank" class="thumbnail">
+                <img src="img/project2.png">
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
+              <a href="http://codepen.io/Verlock/full/wgJBMb/" target="_blank" class="thumbnail">
+                <img src="img/project3.png">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-              <a href="#" class="thumbnail">
-                <img src="http://placehold.it/500x300">
+              <a href="projects/wordpress" target="_blank" class="thumbnail">
+                <img src="img/project4.png">
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -153,10 +147,15 @@ if(isset($_POST['submit'])){
 
         </div>
       </section>
-      <section id="contact">
+      <hr id="contact">
+      <br>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <br>
+      <hr>
+      <section >
+
+        <!-- <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
@@ -274,9 +273,92 @@ if(isset($_POST['submit'])){
               </div>
 
             </div>
+          </div> -->
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Basic Package</h3>
+              </div>
+              <div class="panel-body">
+                <h5><strong>Basic Package</strong>: Start at $100</h5>
+                <p>Basic Static page</p>
+                <p>Basic Design</p>
+                <p>Single page</p>
+                <p>Basic Styleing</p>
+                <p><strong>* Not Mobile Ready refer to Advance</strong></p>
+                <p><strong>* Non-refundable $50 deposit</strong></p>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-form">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Advance Package</h3>
+              </div>
+              <div class="panel-body">
+                <h5><strong>Advance Package</strong>: Start at $500</h5>
+                <p>Detailed Content Page</p>
+                <p>Design</p>
+                <p>Mobile Ready</p>
+                <p>Up to 5 Pages</p>
+                <p><strong>* No Site Behaviors</strong></p>
+                <p><strong>* Non-refundable $200 deposit</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Premium Package</h3>
+              </div>
+              <div class="panel-body">
+                <h5><strong>Premium Package</strong>: Start at $1000</h5>
+                <p>Detailed Content Page</p>
+                <p>Detailed Design</p>
+                <p>PSD File to Code</p>
+                <p>Mobile Ready</p>
+                <p>Up to 5 Pages</p>
+                <p><strong>* Non-refundable $500 deposit</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Wordpress Package</h3>
+              </div>
+              <div class="panel-body">
+                <h5><strong>Wordpress Package</strong>: Start at $500</h5>
+                <p>Template Customization</p>
+                <p>Server Setup</p>
+                <p>Plugin Setup</p>
+                <p><strong>Update Theme</strong> Start at $100</p>
+                <p><strong>Custome Built Template Price Veries</strong></p>
+                <p><strong>* Non-refundable $200 deposit</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-21 col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Add-on's</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Revision</strong>: 1 Free, 2 or more Start at $50</p>
+                <p><strong>Add Page</strong>: $50</p>
+                <p><strong>Special Fonts</strong>: $20</p>
+                <p><strong>Stock Photo</strong>: Start at $50</p>
+                <p><strong>Server Migration</strong>: Start at $25</p>
+                <p><strong>Hosting Services</strong> $10 a Month</p>
+                <p><strong>Domain Name</strong>: Starting at $20</p>
+                <p><strong>More Wordpress Plugin</strong>: Start at $25</p>
+                <p><strong>SEO</strong>: Star at $100</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 contact-form">
             <h4 class="text-center">Let's Connect!</h4>
+            <h5 class="text-center">contact@alvinsportfolio.com</h5>
 
             <form action="" method="post">
               First Name:<br> <input type="text" name="first_name" required><br>
@@ -286,6 +368,8 @@ if(isset($_POST['submit'])){
                           <option value="Basic Package">Basic Package</option>
                           <option value="Advance Package">Advance Package</option>
                           <option value="Premium Package">Premium Package</option>
+                          <option value="Wordpress Basic Package">Wordpress Basic Package</option>
+                          <option value="Wordpress Advnace Package">Wordpress Advnace Package</option>
                           <option value="Job offer">Employment</option>
                       </select><br>
 
@@ -294,6 +378,7 @@ if(isset($_POST['submit'])){
             </form>
 
 
+          </div>
           </div>
         </div>
       </section>

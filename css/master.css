@@ -12,13 +12,15 @@ white #F8F8F8 (248,248,248) (body)
 light grey #E6E4E5 (230,228,229)
 mild grey #B6B4B5 (182,180,181)
 black #524E4D (82,78,77)
+
+http://www.color-hex.com/color-palette/32601
 */
 
 body{
   padding-top: 50px;
   font-family: 'Titillium Web', sans-serif;
   /*background: #f8f8f8;*/
-  background: url('../img/img01.jpg');
+  background: url('../img/main-bg-white.jpg');
 }
 
 
@@ -26,10 +28,10 @@ body{
 
 .navbar-default {
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#524e4d 95%,#ff3232 90%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#524e4d 95%,#ff3232 90%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#524e4d 95%,#ff3232 90%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#524e4d 95%,#ff3232 90%); /* Standard syntax */
+  background: -webkit-linear-gradient(#000 95%,#ff3232 90%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#000 95%,#ff3232 90%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000 95%,#ff3232 90%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000 95%,#ff3232 90%); /* Standard syntax */
   border: none;
 
 }
@@ -57,10 +59,10 @@ nav .navbar-brand p{
 /*About ME Style*/
 .jumbotron{
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#524e4d 98%,#ff3232 10%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#524e4d 98%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#524e4d 98%,#ff3232 10%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#524e4d 98%,#ff3232 10%); /* Standard syntax */
+  background: -webkit-linear-gradient(#413e3d 98%,#ff3232 10%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#413e3d 98%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#413e3d 98%,#ff3232 10%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#413e3d 98%,#ff3232 10%); /* Standard syntax */
   border: none;
 }
 
@@ -71,7 +73,7 @@ nav .navbar-brand p{
 }
 
 .jumbotron .about{
-  background: rgba(147,36,29, 0.7);
+  background: rgba(147,36,29, 0.5);
   border-radius: 30px;
   color: #F8F8F8;
   text-shadow: 0 0 2px #000;
@@ -91,11 +93,22 @@ nav .navbar-brand p{
 /*Portfolio Style*/
 .thumbnail{
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#524e4d 98.5%,#ff3232 10%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#524e4d 98.5%,#ff3232 10%); /* Standard syntax */
+  background: -webkit-linear-gradient(#524e4d 98.5%,#000 10%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#524e4d 98.5%,#000 10%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#524e4d 98.5%,#000 10%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#524e4d 98.5%,#000 10%); /* Standard syntax */
   border: none;
+}
+
+
+
+.portfolio div{
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.portfolio img{
+  width: 500px;
 }
 
 /*Price Section*/
@@ -137,8 +150,6 @@ h4{
 }
 .contact-form{
   background: #B6B4B5;
-  width: 40%;
-  margin-left: 5%;
   border-radius: 40px;
   border: 2px solid #524E4D;
 }
