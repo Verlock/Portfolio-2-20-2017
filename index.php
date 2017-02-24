@@ -26,7 +26,6 @@ if(isset($_POST['submit'])){
 <head>
     <meta charset="utf-8">
     <title>Alvin's Portfolio</title>
-
     <link href="https://fonts.googleapis.com/css?family=Courgette|PT+Serif|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -40,8 +39,6 @@ if(isset($_POST['submit'])){
           <div class="navbar-header">
             <a class="navbar-brand" href="#" >
               <p>Alvin</p>
-            </a>
-          </div>
           <div class="nav navbar-nav navbar-right">
             <ul class="nav navbar-nav" >
               <li role="presentation"><a href="#meet-me">Meet Me</a></li>
@@ -274,11 +271,10 @@ if(isset($_POST['submit'])){
           </div> -->
 
           <div >
-            <h3 class="alert-warning text-center">Client: Currently only Accepting Basic Package</h3>
             <h3 class="alert-success text-center">Employers: Currently looking for employment</h3>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">Basic Package</h3>
@@ -294,7 +290,7 @@ if(isset($_POST['submit'])){
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">Advance Package</h3>
@@ -310,7 +306,7 @@ if(isset($_POST['submit'])){
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <!--  <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">Premium Package</h3>
@@ -341,8 +337,8 @@ if(isset($_POST['submit'])){
                 <p><strong>* Non-refundable $750 deposit</strong></p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-21 col-xs-12">
+          </div> -->
+          <div class="col-lg-3 col-md-3 col-sm-21 col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">Add-on's</h3>
@@ -352,15 +348,15 @@ if(isset($_POST['submit'])){
                 <p><strong>Add Page</strong>: $50</p>
                 <p><strong>Special Fonts</strong>: $20</p>
                 <p><strong>Stock Photo</strong>: Start at $50</p>
-                <p><strong>Server Migration</strong>: Start at $25</p>
+                <!-- <p><strong>Server Migration</strong>: Start at $25</p> -->
                 <p><strong>Hosting Services</strong> $10 a Month</p>
                 <p><strong>Domain Name</strong>: Starting at $20</p>
-                <p><strong>More Wordpress Plugin</strong>: Start at $25</p>
-                <p><strong>SEO</strong>: Start at $100</p>
+                <!-- <p><strong>More Wordpress Plugin</strong>: Start at $25</p>
+                <p><strong>SEO</strong>: Start at $100</p> -->
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 contact-form">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 contact-form">
             <h4 class="text-center">Let's Connect!</h4>
             <h5 class="text-center">contact@alvinsportfolio.com</h5>
 
@@ -370,8 +366,8 @@ if(isset($_POST['submit'])){
               Email:<br> <input type="email" name="email" required><br>
               Subject: &nbsp; &nbsp; <select name="form_subject">
                           <option value="Basic Package">Basic Package</option>
-                          <!-- <option value="Advance Package">Advance Package</option>
-                          <option value="Premium Package">Premium Package</option>
+                           <option value="Advance Package">Advance Package</option>
+                        <!--  <option value="Premium Package">Premium Package</option>
                           <option value="Wordpress Basic Package">Wordpress Basic Package</option>
                           <option value="Wordpress Advnace Package">Wordpress Advnace Package</option> -->
                           <option value="Job offer">Employment</option>
