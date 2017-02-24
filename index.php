@@ -16,8 +16,6 @@ if(isset($_POST['submit'])){
     $var = "Mail Sent. Thank you " . $first_name . ", will be in contact with you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
-
-
 ?>
 
 
@@ -274,6 +272,12 @@ if(isset($_POST['submit'])){
 
             </div>
           </div> -->
+
+          <div >
+            <h3 class="alert-warning text-center">Client: Currently only Accepting Basic Package</h3>
+            <h3 class="alert-success text-center">Employers: Currently looking for employment</h3>
+          </div>
+
           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -328,13 +332,13 @@ if(isset($_POST['submit'])){
                 <h3 class="panel-title">Wordpress Package</h3>
               </div>
               <div class="panel-body">
-                <h5><strong>Wordpress Package</strong>: Start at $500</h5>
+                <h5><strong>Wordpress Package</strong>: Start at $1500</h5>
                 <p>Template Customization</p>
                 <p>Server Setup</p>
                 <p>Plugin Setup</p>
                 <p><strong>Update Theme</strong> Start at $100</p>
                 <p><strong>Custome Built Template Price Veries</strong></p>
-                <p><strong>* Non-refundable $200 deposit</strong></p>
+                <p><strong>* Non-refundable $750 deposit</strong></p>
               </div>
             </div>
           </div>
@@ -352,7 +356,7 @@ if(isset($_POST['submit'])){
                 <p><strong>Hosting Services</strong> $10 a Month</p>
                 <p><strong>Domain Name</strong>: Starting at $20</p>
                 <p><strong>More Wordpress Plugin</strong>: Start at $25</p>
-                <p><strong>SEO</strong>: Star at $100</p>
+                <p><strong>SEO</strong>: Start at $100</p>
               </div>
             </div>
           </div>
@@ -366,10 +370,10 @@ if(isset($_POST['submit'])){
               Email:<br> <input type="email" name="email" required><br>
               Subject: &nbsp; &nbsp; <select name="form_subject">
                           <option value="Basic Package">Basic Package</option>
-                          <option value="Advance Package">Advance Package</option>
+                          <!-- <option value="Advance Package">Advance Package</option>
                           <option value="Premium Package">Premium Package</option>
                           <option value="Wordpress Basic Package">Wordpress Basic Package</option>
-                          <option value="Wordpress Advnace Package">Wordpress Advnace Package</option>
+                          <option value="Wordpress Advnace Package">Wordpress Advnace Package</option> -->
                           <option value="Job offer">Employment</option>
                       </select><br>
 
